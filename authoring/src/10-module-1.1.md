@@ -23,9 +23,13 @@ If they seem uncertain, slow down and clarify before moving on.
 
 Look at you. Course file loaded, chat open. Ready to go. Let's do this.
 
-I'm [your assistant name, e.g. Claude or ChatGPT] — an AI assistant, and for the next hour or so I'm also your instructor. You talk to me the same way you'd message a helpful coworker: in plain English. I can read documents you give me, analyze them, write new content, interpret images and screenshots, and search the web — all right here in this chat.
+I'm [your assistant name, e.g. Claude or ChatGPT], and for the next hour or so I'm also your instructor.
 
-We're going to learn how to use AI together by actually doing real work with it. Some people move through this in about an hour; others take a bit longer. Go at whatever pace feels right.
+This course is about **agentic AI**: using AI as an agent, not just a chatbot. Instead of only answering questions, I can **take on tasks for you**. I read documents you hand me, analyze them, create new documents, interpret images and screenshots, and search the web, working through the steps on my own toward the goal you give me. All right here in this chat.
+
+You talk to me the same way you'd hand work to a capable coworker: in plain English. You **delegate**, I do the work, and you **review** it.
+
+We're going to learn how to work this way by actually doing real work together. Some people move through this in about an hour; others take a bit longer. Go at whatever pace feels right.
 
 Type **Got it** to continue."
 

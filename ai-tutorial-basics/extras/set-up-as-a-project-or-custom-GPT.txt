@@ -2,8 +2,8 @@
   OPTIONAL: SET UP THE COURSE AS A CLAUDE PROJECT OR A CUSTOM GPT
 =====================================================================
 
-You don't need this to take the course. The normal way (drag COURSE.md
-into a chat, type "start") works fine.
+You don't need this. The course runs in a regular chat: drag
+COURSE.md in and type "start". This guide is only a convenience.
 
 This is useful if you're RUNNING the course for a group or a team:
 learners just open the Project or GPT and type "start". No file to

@@ -3,13 +3,15 @@
   A hands-on course that runs inside your AI chat
 =====================================================================
 
-Learn to use an AI assistant (Claude or ChatGPT) for real work by
-actually doing real work. The AI is your instructor: it guides you
-step by step, answers your questions, and checks your progress.
+Learn to use agentic AI (AI that takes on whole tasks for you, not
+just answers questions) by actually doing real work with it. The AI
+is your instructor: it guides you step by step, answers your
+questions, and checks your progress.
 
   - No technical skills needed
   - About 1 to 2 hours, at your own pace
-  - Works in the Claude or ChatGPT app (desktop or web browser)
+  - Works in a regular Claude or ChatGPT chat (desktop app or web
+    browser). Nothing to install or set up.
 
 
 ---------------------------------------------------------------------
@@ -25,8 +27,7 @@ step by step, answers your questions, and checks your progress.
 2. USE A COMPUTER, not a phone. You'll be dragging files into the chat.
 
 3. HAVE AN ACCOUNT for Claude (claude.ai) or ChatGPT (chatgpt.com).
-   Free accounts work. Paid accounts work best: they handle longer
-   chats and have web search turned on more reliably.
+   Free accounts work. Paid accounts allow longer chats.
 
 
 ---------------------------------------------------------------------
@@ -80,8 +81,9 @@ Write down the latest one. To come back later:
                      into the chat. (You don't need to open it.)
   practice-files/    Files from "Relay," a made-up company. You'll
                      use these during the course.
-  extras/            Optional: set the course up as a Claude Project
-                     or a custom GPT (great for sharing with a team).
+  extras/            Optional, and not needed to take the course: how
+                     to set it up as a Claude Project or a custom GPT
+                     if you're running it for a whole team.
 
 
 ---------------------------------------------------------------------
