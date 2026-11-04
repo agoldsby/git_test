@@ -1,0 +1,19 @@
+# Relay — Competitive Landscape
+
+| Competitor | Strength                           | Weakness (our opening)                  |
+|------------|------------------------------------|-----------------------------------------|
+| Asana      | Polished, easy for non-technical teams | Gets expensive; weak for engineering work |
+| Jira       | Powerful for engineering teams     | Complex; non-engineers find it intimidating |
+| Monday.com | Flexible, colorful, great templates | Can feel cluttered at scale             |
+| Linear     | Fast and loved by developers       | Narrow focus on software teams          |
+| ClickUp    | Does everything                    | "Does everything" — steep learning curve |
+
+## Where Relay wins
+- Built async-first for remote teams (Async Updates replace stand-ups).
+- Simple enough for marketing, powerful enough for engineering.
+- Workload View is a favorite in sales demos.
+
+## Where Relay loses
+- **Onboarding:** Competitors (especially Monday.com and Asana) get new teams to a
+  "useful first project" in minutes using templates. Relay starts with a blank page.
+- **Enterprise readiness:** No SSO yet — we lose larger deals to Asana and Jira.

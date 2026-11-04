@@ -1,0 +1,18 @@
+FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+From: Aisha Rahman, Marketing Lead
+
+Fully supportive — our acquisition is working, activation isn't. We're
+paying to bring people in the front door and they're walking out the back.
+
+What Marketing can do without engineering help:
+- An activation email series on Day 1, Day 3 and Day 7 with tips and
+  "here's a template for your team type" content.
+- In-app copy for the Guided Setup steps (happy to partner with Priya).
+
+What I need:
+- Agreement on what "activated" means so emails and product use the same
+  definition.
+- Copy approval turnaround of under 48 hours, or we'll miss the launch window.
+
+One concern: if Guided Setup forces "invite 2 teammates," solo users trying
+Relay out alone may bounce. Maybe allow a "just me for now" option?

@@ -1,0 +1,119 @@
+=====================================================================
+  AI TUTORIAL: BASICS
+  A hands-on course that runs inside your AI chat
+=====================================================================
+
+Learn to use an AI assistant (Claude or ChatGPT) for real work by
+actually doing real work. The AI is your instructor: it guides you
+step by step, answers your questions, and checks your progress.
+
+  - No technical skills needed
+  - About 1 to 2 hours, at your own pace
+  - Works in the Claude or ChatGPT app (desktop or web browser)
+
+
+---------------------------------------------------------------------
+  BEFORE YOU START (2 minutes)
+---------------------------------------------------------------------
+
+1. UNZIP THIS FOLDER (if you haven't already).
+   Windows: right-click the .zip file > "Extract All" > "Extract".
+   Mac:     double-click the .zip file.
+   Put the unzipped "ai-tutorial-basics" folder somewhere easy to
+   find, like your Desktop.
+
+2. USE A COMPUTER, not a phone. You'll be dragging files into the chat.
+
+3. HAVE AN ACCOUNT for Claude (claude.ai) or ChatGPT (chatgpt.com).
+   Free accounts work. Paid accounts work best: they handle longer
+   chats and have web search turned on more reliably.
+
+
+---------------------------------------------------------------------
+  START THE COURSE (30 seconds)
+---------------------------------------------------------------------
+
+1. Open Claude or ChatGPT and start a NEW chat.
+
+2. Drag the file  COURSE.md  (in this folder) into the chat.
+   (Or click the + / paperclip button next to the message box and
+   choose COURSE.md.)
+
+3. Type   start   and press Enter.
+
+That's it. Your instructor takes it from there.
+
+
+---------------------------------------------------------------------
+  WHILE YOU'RE TAKING THE COURSE
+---------------------------------------------------------------------
+
+Type any of these at any time:
+
+  help          a gentle hint if you're stuck
+  where am I    see your progress
+  restart       start over from the beginning
+
+Or ask any question in your own words. You can't break anything.
+
+
+---------------------------------------------------------------------
+  TAKING A BREAK
+---------------------------------------------------------------------
+
+Along the way your instructor gives you SAVE CODES that look like:
+
+      RELAY-1.2-S3
+
+Write down the latest one. To come back later:
+  1. Start a NEW chat.
+  2. Drag in COURSE.md again.
+  3. Type   resume RELAY-1.2-S3   (with your code).
+
+
+---------------------------------------------------------------------
+  WHAT'S IN THIS FOLDER
+---------------------------------------------------------------------
+
+  START-HERE.txt     You're reading it.
+  COURSE.md          The course itself. This is the file you drag
+                     into the chat. (You don't need to open it.)
+  practice-files/    Files from "Relay," a made-up company. You'll
+                     use these during the course.
+  extras/            Optional: set the course up as a Claude Project
+                     or a custom GPT (great for sharing with a team).
+
+
+---------------------------------------------------------------------
+  TROUBLESHOOTING
+---------------------------------------------------------------------
+
+The AI didn't start the course / just summarized the file
+  Type:  start the course
+
+The AI seems lost, skipped ahead, or forgot where we were
+  Type:  Please re-read the course file and continue from save
+         code RELAY-1.2-S3   (use your latest code)
+
+"File type not supported" or the upload fails
+  Open the file in Notepad (TextEdit on Mac), select all
+  (Ctrl+A / Cmd+A), copy, and paste the text into the chat.
+
+The chat got very long and the AI is slowing down or hit a limit
+  Start a new chat, drag in COURSE.md, and use your latest save code.
+
+Web search doesn't work (Scenario 5)
+  In Claude: click + next to the message box and turn on Web search.
+  In ChatGPT: click + and choose Web search.
+  Some free plans or work accounts have it turned off. That's OK.
+  The instructor will explain and carry on.
+
+
+---------------------------------------------------------------------
+  A NOTE ON PRIVACY
+---------------------------------------------------------------------
+
+Everything in practice-files is fictional, so it's safe to upload.
+When you use AI on your real work afterward, follow your
+organization's rules about which AI tools are approved and what
+information you may share with them.
