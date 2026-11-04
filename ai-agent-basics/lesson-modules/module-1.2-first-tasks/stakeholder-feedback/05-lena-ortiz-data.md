@@ -3,7 +3,7 @@ From: Lena Ortiz, Data Analyst
 
 Supportive. Some numbers to ground the discussion:
 
-- Onboarding completion: 65% (target 80%). Flat for 3 quarters.
+- Onboarding completion: 65% (target 80%). Flat all year.
 - Day-30 retention: 62%, down from 71% in January.
 - Sign-ups: up 40% quarter over quarter (mostly from the new free plan).
 - The biggest drop-off is between "create project" and "add 5 tasks" —

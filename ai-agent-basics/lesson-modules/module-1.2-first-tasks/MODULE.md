@@ -99,8 +99,9 @@ Go ahead!"
    bottom of meeting-notes-raw.md." Show it and give the download, then continue with the
    wrap-up text below.
 3. Otherwise, write the action items. Group them by owner (bold owner names), and format
-   each item as **Task (Priority) – due Date**. Infer priority from the notes: HIGH,
-   "THE priority," and blocking decisions are High; everything else is Medium or Low.
+   each item as **Task (Priority) – due Date**. Infer priority from the notes: items marked
+   HIGH or "THE priority," items that block someone else's decision, and items due today
+   are High; everything else is Medium or Low.
    Add a **⚠️ Needs attention** list for missing owners or dates and open questions.
    Compare with the Scenario 1 answer key so nothing is missed.
 4. **Append it to the bottom of `meeting-notes-raw.md`** under a heading
@@ -139,8 +140,9 @@ Now **you** try it, in your own words. There's a second file, **product-sync-not
 **Action:** Do what they asked with `product-sync-notes.md` (see the answer key), and save
 it where they said. **If they didn't say where to save it**, give the answer in the chat,
 then say: "Notice I only answered in the chat this time, because you didn't tell me where
-to put it. Want me to save it? Just say where. For example: *'append that to the
-file.'*" Then wait, save it when they answer, and continue.
+to put it. That's what a chatbot does. Tell me where to save it, for example: *'add that
+to the bottom of the file.'*" Then stop and wait. When they answer, save it, confirm the
+file changed (✅ + the new section + 📥 download), and continue with the text below.
 
 **Then say:**
 
@@ -220,18 +222,21 @@ Ready for the next scenario? Type: **Next**"
 
 ## Step 4 — Scenario 3: Communication Transformation (10 minutes)
 
+**If the learner skipped Scenario 2** (no `feedback-synthesis.md` yet), use the
+**[skipped]** wording below instead of the lines marked **[normal]**.
+
 **When the learner continues, say:**
 
 "**✉️ Scenario 3: Communication transformation**
 
-You've got a great synthesis. Now you have to tell people about it, and different audiences need different versions:
+**[normal]** You've got a great synthesis. **[skipped]** Imagine you've just synthesized feedback from 8 colleagues. (Don't worry, I'll create that synthesis for you as part of this task.) Now you have to tell people about it, and different audiences need different versions:
 - Your **team** wants a quick **Slack update**
 - **Leadership** wants a crisp **executive email**
 - The **project doc** needs the full detail
 
 Writing three versions by hand takes about an hour. And Relay has style guides for each format, so they need to look a certain way. The style guides are in the **communication-styles** folder.
 
-This time you'll combine two skills: pointing me at a **folder** (the style guides) and a **specific file** (the synthesis you just made). One builds on the other.
+This time you'll combine two skills: pointing me at a **folder** (the style guides) and a **specific file** (the feedback synthesis). One builds on the other.
 
 **Your turn.** Send this:
 
@@ -275,7 +280,7 @@ Here's a preview of each:
 🎯 **Three messages, three audiences, one source of truth.** Each one follows its own style guide: the Slack update is short and casual, the email leads with the bottom line, and the doc has the full structure with an owner table.
 
 **What you just learned:**
-- **I can chain work together.** I used a file *I* created in the last scenario as the input for this one. That's how agents handle multi-step work.
+- **I can chain work together.** I used a file *I* created (the synthesis) as the input for this one. That's how agents handle multi-step work.
 - **Style guides = consistent results.** Give me examples or rules, and I'll match them.
 - **I create finished deliverables**, not just chat replies. That file is ready to share.
 
@@ -293,7 +298,7 @@ Type **Next** when you're ready for Scenario 4."
 
 "**📊 Scenario 4: Dashboard analysis**
 
-It's Monday morning. In an hour you're presenting customer onboarding progress to leadership. Lena from Data just finished the onboarding dashboard she promised in Friday's meeting, and it's in your folder as **dashboard-example.png**: a picture full of charts. You need to understand it fast and walk in with clear talking points.
+It's the end of the following week. In an hour you're presenting customer onboarding progress to leadership. Lena from Data just finished the onboarding dashboard she promised in last Friday's meeting, and it's in your folder as **dashboard-example.png**: a picture full of charts. You need to understand it fast and walk in with clear talking points.
 
 This time you'll use a new skill: **I can read images**, including charts, screenshots, photos, even a picture of a whiteboard.
 
@@ -316,8 +321,8 @@ Go ahead!"
 4. Save it to disk and confirm it exists.
 
 **If you can't read the image in this environment:** say so plainly, and ask the learner
-to drag `dashboard-example.png` (from the zip on their computer) or a screenshot of it into
-the chat. Then continue from step 3.
+to help: give them a download link for `dashboard-example.png`, and ask them to download it
+and drag it back into the chat (that sends it to you as an image you can see). Then continue from step 3.
 
 **Present it like this:**
 
@@ -394,7 +399,7 @@ Here's the short version:
 **[no search]** 🌍 **That's AI research.** Instead of opening 20 tabs, you asked one question and got a written summary connected to *your* situation. With web search turned on, I'd also search live and include sources. Try it later by turning search on and sending the same request.
 
 **Smart habits with AI research:**
-- 🔗 **Click the sources** for anything important. Make sure they say what I said they say.
+- 🔗 **[searched]** **Click the sources** for anything important. Make sure they say what I said they say. **[no search]** **Check important claims** before you rely on them, and turn search on to get sources.
 - 🎯 **Ask follow-ups**: "Tell me more about #3" or "Find an example from a company our size."
 - 🧠 **Use it as a starting point**, not the final word. You're still the expert on your work.
 
@@ -406,9 +411,12 @@ Type **Wrap it up** to finish the course."
 
 ## Step 7 — Wrap-Up & What's Next (3 minutes)
 
-**Action:** Package the learner's work into one download. Create a zip of the
-`module-1.2-first-tasks` folder (it holds everything they made) called
-`my-relay-work.zip`, and save it to disk.
+**Action:** Package the learner's work into one download. Create `my-relay-work.zip`
+**at the top of the course folder** (not inside `module-1.2-first-tasks`), containing only
+the files the learner made or changed that exist: the updated `meeting-notes-raw.md` and
+`product-sync-notes.md`, `feedback-synthesis.md`, `research-communications.md`,
+`dashboard-talking-points.md`, and `onboarding-research.md`. Don't include `MODULE.md` or
+any other instruction files.
 
 **Say:**
 
@@ -418,7 +426,7 @@ As a send-off, I packaged everything you made today into one download:
 
 📥 [download link or file card for my-relay-work.zip]
 
-Inside you'll find the updated meeting notes, **feedback-synthesis.md**, **research-communications.md**, **dashboard-talking-points.md**, and **onboarding-research.md**.
+Inside you'll find [list the files actually in the zip, e.g. the updated meeting notes, **feedback-synthesis.md**, **research-communications.md**, **dashboard-talking-points.md**, and **onboarding-research.md**].
 
 **Here's everything you can now do:**
 1. ✅ **Process messy notes** and save the action items right into the document
@@ -451,8 +459,8 @@ Thanks for learning with me. You did great. 🙌
 When the learner types **help**, give a gentle hint for the step they're on (2–3
 sentences, warm, ending with encouragement). Don't reveal the answer or skip ahead.
 
-- **Sending a request:** "No worries! Just copy the request I gave you (the text in the gray box), paste it into the message box, and press Enter. Or type it in your own words. That works too!"
-- **Scenario 1 practice (own request):** "No problem! Try something like: *Pull out the decisions from product-sync-notes.md and add them to the bottom of the file.* Any request works, as long as you tell me which file and where to put the result."
+- **Sending a request:** "No worries! Just copy the request I gave you (the quoted request in my last message), paste it into the message box, and press Enter. Or type it in your own words. That works too!"
+- **Scenario 1 practice (own request):** "No problem! Try something like: *Write a short summary of product-sync-notes.md for someone who missed the meeting, and add it to the bottom of the file.* Any request works, as long as you tell me which file and where to put the result."
 - **Folder vs. file:** "You can name a whole folder (like *stakeholder-feedback*) and I'll read everything inside, or name one file (like *feedback-synthesis.md*). Give it a try!"
 - **Where did the file go?** "I saved it in the course folder. Look for the download link or file card in my last message to grab your own copy."
 - **Web search:** "Check for a **+**, tools, or 🌐 button next to the message box and look for **Web search**. If you can't find it, just send the request anyway and I'll do what I can!"
@@ -484,8 +492,8 @@ Use these to make sure your results are complete. Always base your work on the r
 check-in with Tom and Marcus, and Q3 planning). A strong list catches roughly these
 (owner: task, priority, due):
 - **Maya**: decide Guided Setup vs. Smart Templates priority (High, Wed)
-- **Priya**: share Guided Setup wireframes and get feedback (High, Tue)
-- **Lena**: pull the top 10 templates people create manually (Medium, Thu)
+- **Priya**: share Guided Setup wireframes in Figma; the team gives feedback by Tue (High, since it blocks design)
+- **Lena**: pull the top 10 templates people create manually (Medium, Thu; the notes say "someone (me?)", so confirm the owner)
 - **Lena**: build the onboarding funnel dashboard (High, end of next week)
 - **Jordan**: t-shirt-size estimate for Guided Setup (High, Tue)
 - **Marcus**: send churn call recordings to you and Priya (Medium, Mon)
@@ -496,7 +504,7 @@ check-in with Tom and Marcus, and Q3 planning). A strong list catches roughly th
 - **You**: write the decision doc after Maya decides (Medium, ~Thu)
 - **You + Priya**: schedule 5 user interviews with new sign-ups (Medium, next Fri)
 - **You**: send the notes to the team (High, before the weekend)
-- Worth flagging: nobody owns the "invite teammates" flow; whether to remove the blank
+- Worth flagging: nobody approves Aisha's email copy yet; the next planning session is in 2 weeks; nobody owns the "invite teammates" flow; whether to remove the blank
   project (Priya yes, Jordan says risky); Tom feels Product doesn't listen to Sales.
 
 **Scenario 1 practice: `product-sync-notes.md`.** Key items: Priya pings Aisha for step
@@ -507,14 +515,14 @@ someone in their first 3 days are 2x as likely to still be customers at day 30. 
 question: should the "team type" step be skippable?
 
 **Scenario 2: `stakeholder-feedback/` (8 files).** A strong synthesis includes:
-- *Themes (with counts):* customer onboarding is a real problem (all 8; 7 strongly back
+- *Themes (with counts):* customer onboarding is a real problem (all 8; 7 support
   Guided Setup, while Tom in Sales isn't against it but says it doesn't help close deals);
   the blank project is where new customers drop off (Maya, Priya, Marcus, Lena); inviting
   teammates is critical (Maya, Priya, Lena, Ben, plus Aisha's caution); templates or
   starter projects matter (Priya, Marcus, Ben, Aisha, and Jordan's "templates-lite");
   engineering capacity and scope (Jordan, Maya, Priya); SSO and enterprise needs (Tom,
   Ben, Jordan, Maya).
-- *Agreement:* 7 of 8 strongly support Guided Setup (Sales is neutral); replace the blank
+- *Agreement:* 7 of 8 support Guided Setup (Sales is neutral); replace the blank
   start; put invites front and center.
 - *Key tensions:*
   1. **SSO vs. onboarding in Q3.** Tom wants both; Jordan says it isn't possible (SSO
@@ -544,7 +552,7 @@ All three tell the same story as the synthesis.
 
 **Scenario 4: `dashboard-example.png`.** This is the onboarding funnel dashboard Lena
 promised in the Scenario 1 notes. A strong analysis includes:
-1. **OKR gap:** onboarding completion is 65% against an 80% target, flat for 3 quarters.
+1. **OKR gap:** onboarding completion is 65% against an 80% target, flat all year.
 2. **Retention decline:** Day-30 retention fell every month, from 71% (Jan) to 62% (Jun),
    down 9 points.
 3. **Growth vs. setup tension:** sign-ups are up 40% (7,480 in Q2) while completion stays

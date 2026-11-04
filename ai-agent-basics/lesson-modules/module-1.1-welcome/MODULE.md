@@ -33,7 +33,7 @@ I'm [your name, e.g. Claude or ChatGPT], and for the next hour or two I'm also y
 
 This course is about **AI agents**. You've probably used AI as a chatbot: you ask a question and get an answer. An agent goes further: it **takes action**. I can open real files, read them, edit them, create new ones, analyze images, and search the web, working through the steps myself toward a goal you give me.
 
-The course you just uploaded is a folder of real files, and I have my own copy to work with. Over the next hour you'll hand me tasks, and I'll do the work on those files.
+The course you just uploaded is a folder of real files, and I have my own copy to work with. Over the course you'll hand me tasks, and I'll do the work on those files.
 
 You don't need any technical knowledge. You just tell me what you want in plain English, the way you'd hand work to a capable coworker. You **delegate**, I **do the work**, and you **review** it.
 
@@ -66,7 +66,7 @@ When you're ready to learn more about Relay, type: **Tell me about Relay**"
 **Relay at a glance**
 - **What it is:** project management software (think Asana meets Jira) built for remote teams
 - **Founded:** 2021 · **Size:** 55 people, fully remote · **Funding:** Series B ($24M)
-- **Customers:** about 1,900 companies pay for Relay
+- **Customers:** about 1,900 customer teams pay for Relay
 
 **Your role:** Project Manager on the Product team. You coordinate work across Product, Engineering, Design, Customer Success, Sales, and Marketing. Your manager is Maya Chen, Head of Product.
 
@@ -99,7 +99,7 @@ them only as shown.
 - **module-1.1-welcome/**: where we are right now
 - **module-1.2-first-tasks/**: the real work, with messy meeting notes, a folder of stakeholder feedback, communication style guides, and a dashboard image
 
-You'll also see a couple of files called **AGENTS.md** and **CLAUDE.md**. Those are the instructions that let me run this course with you. You don't need to touch them.
+The folder also has a few instruction files (named AGENTS.md, CLAUDE.md, and MODULE.md). Those are what let me run this course with you. You don't need to touch them.
 
 This is the key difference from a chatbot: these are **real files**, and I can open, read, change, and create them. In Module 1.2 you'll put me to work on them.
 

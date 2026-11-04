@@ -4,7 +4,7 @@ fri notes - DO NOT SHARE yet, cleanup later
 ppl: maya, jordan, priya, me, lena (late)
 - lena: onboarding compl. still ~65%, okr is 80. not moving. day30 ret down again (62?? was 71 in jan)
 - maya says guided setup is THE priority this qtr, everything else 2nd
-- jordan worried abt scope. guided setup + smart templates both in q3 = "not happening w/ current team" . needs decision by wed
+- jordan worried abt scope. guided setup + FULL smart templates both in q3 = "not happening w/ current team", maybe a lite version . needs decision by wed
 - priya has wireframes for guided setup v1, wants feedback by tues. sharing in figma
 - someone (me?) needs to pull the list of top 10 templates ppl create manually -> lena can get from data? lena said yes by thurs
 - jordan: slack v2 is 80% done, dont want to pause it

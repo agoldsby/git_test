@@ -18,8 +18,8 @@
 **If you can't open or work with files in this mode:** don't try to run the course from
 memory. In one short, friendly message, tell the learner this course needs an AI that can
 work with files, and how to get one:
-- **ChatGPT:** switch from Chat to the mode that can work with files (it may be called
-  **Work** or **Agent** mode), upload the zip again, and type **start**.
+- **ChatGPT:** switch from Chat to the mode that can work with files (it's called
+  **Work** mode), upload the zip again, and type **start**.
 - **Claude:** turn on **Code execution and file creation** (Settings → Capabilities),
   start a new chat, upload the zip again, and type **start**.
 
@@ -52,6 +52,8 @@ Don't just print text into the chat. Then show the learner what you did:
 3. Give the learner a way to **download the file**, using your app's normal method (a
    download link or file card). If your app only offers downloads from a special output
    location, save a copy there too. The copy in the course folder is the real one.
+   **Whenever you change a file again later, share the updated copy** so the learner's
+   download is never out of date.
 
 ---
 
