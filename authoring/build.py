@@ -1,67 +1,82 @@
 #!/usr/bin/env python3
-"""Build ai-tutorial-basics/COURSE.md from the source parts, then zip the course folder.
+"""Package the AI Agent Basics course for sharing.
 
 Usage (from the repository root):
     python3 authoring/build.py
 
 What it does:
-1. Joins authoring/src/*.md in filename order.
-2. Fills {{COMPANY_CONTEXT}} with the four files in practice-files/company-context/,
-   so the tutor's copy of Relay's background always matches the learner's copy.
-3. Fills {{ANSWER_KEYS}} with authoring/src/05-answer-keys.md.
-4. Writes ai-tutorial-basics/COURSE.md and dist/ai-tutorial-basics.zip.
+1. Copies ai-agent-basics/AGENTS.md to ai-agent-basics/CLAUDE.md, so both AI apps find
+   identical instructions. (Edit AGENTS.md only.)
+2. Checks that every course file path mentioned in the instructions actually exists.
+3. Zips the ai-agent-basics/ folder (with the folder at the top level) into
+   dist/ai-agent-basics.zip. That zip is what learners upload.
 """
 from pathlib import Path
+import re
+import shutil
+import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "authoring" / "src"
-COURSE_DIR = ROOT / "ai-tutorial-basics"
-CONTEXT_DIR = COURSE_DIR / "practice-files" / "company-context"
+COURSE = ROOT / "ai-agent-basics"
 DIST = ROOT / "dist"
 
-CONTEXT_ORDER = ["COMPANY.txt", "PRODUCT.txt", "PERSONAS.txt", "COMPETITIVE.txt"]
-ANSWER_KEYS = "05-answer-keys.md"
+# Files the AI creates during the course; they must NOT ship in the zip.
+CREATED_DURING_COURSE = {
+    "feedback-synthesis.md",
+    "research-communications.md",
+    "dashboard-talking-points.md",
+    "onboarding-research.md",
+    "my-relay-work.zip",
+}
 
 
-def company_context() -> str:
-    parts = ["### Company context files (the learner has these too)\n"]
-    for name in CONTEXT_ORDER:
-        text = (CONTEXT_DIR / name).read_text(encoding="utf-8").strip()
-        # Demote the files' own headings so they nest under this section.
-        text = "\n".join("###" + line if line.startswith("#") else line for line in text.splitlines())
-        parts.append(f"#### File: company-context/{name}\n\n{text}\n")
-    return "\n".join(parts)
+def sync_claude_md() -> None:
+    shutil.copyfile(COURSE / "AGENTS.md", COURSE / "CLAUDE.md")
 
 
-def build_course() -> str:
-    pieces = []
-    for path in sorted(SRC.glob("*.md")):
-        if path.name == ANSWER_KEYS:
-            continue
-        pieces.append(path.read_text(encoding="utf-8").strip() + "\n")
-    course = "\n".join(pieces)
-    course = course.replace("{{COMPANY_CONTEXT}}", company_context().strip())
-    course = course.replace("{{ANSWER_KEYS}}", (SRC / ANSWER_KEYS).read_text(encoding="utf-8").strip())
-    leftover = [tok for tok in ("{{COMPANY_CONTEXT}}", "{{ANSWER_KEYS}}") if tok in course]
-    if leftover:
-        raise SystemExit(f"Unfilled placeholders: {leftover}")
-    return course
+def check_references() -> list[str]:
+    """Find backticked paths like `company-context/COMPANY.md` and make sure they exist."""
+    problems = []
+    for script in [COURSE / "AGENTS.md", *COURSE.glob("lesson-modules/*/MODULE.md")]:
+        text = script.read_text(encoding="utf-8")
+        for ref in set(re.findall(r"`([\w./-]+\.(?:md|png))`", text)):
+            name = Path(ref).name
+            if name in CREATED_DURING_COURSE or name in {"CLAUDE.md"}:
+                continue
+            # Accept a full path from the course root, or any file whose path ends with it.
+            found = (COURSE / ref).exists() or any(
+                f.as_posix().endswith("/" + ref) for f in COURSE.rglob("*") if f.is_file()
+            )
+            if not found:
+                problems.append(f"{script.relative_to(ROOT)} mentions missing file `{ref}`")
+    return problems
+
+
+def check_no_leftovers() -> list[str]:
+    return [
+        f"{p.relative_to(ROOT)} is created during the course and shouldn't be shipped"
+        for p in COURSE.rglob("*")
+        if p.name in CREATED_DURING_COURSE
+    ]
 
 
 def make_zip() -> Path:
     DIST.mkdir(exist_ok=True)
-    out = DIST / "ai-tutorial-basics.zip"
+    out = DIST / "ai-agent-basics.zip"
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
-        for path in sorted(COURSE_DIR.rglob("*")):
+        for path in sorted(COURSE.rglob("*")):
             if path.is_file() and not path.name.startswith("."):
                 zf.write(path, path.relative_to(ROOT))
     return out
 
 
 if __name__ == "__main__":
-    course = build_course()
-    (COURSE_DIR / "COURSE.md").write_text(course, encoding="utf-8")
-    words = len(course.split())
-    print(f"Wrote {COURSE_DIR / 'COURSE.md'} ({words:,} words, ~{int(words * 1.4):,} tokens)")
-    print(f"Wrote {make_zip()}")
+    sync_claude_md()
+    problems = check_references() + check_no_leftovers()
+    if problems:
+        print("Build stopped:\n  " + "\n  ".join(problems))
+        sys.exit(1)
+    out = make_zip()
+    count = len(zipfile.ZipFile(out).namelist())
+    print(f"Wrote {out.relative_to(ROOT)} ({count} files, {out.stat().st_size // 1024} KB)")

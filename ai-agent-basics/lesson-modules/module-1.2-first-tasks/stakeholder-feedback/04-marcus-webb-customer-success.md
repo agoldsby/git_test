@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Marcus Webb, Customer Success
 
 Yes, please, and fast.

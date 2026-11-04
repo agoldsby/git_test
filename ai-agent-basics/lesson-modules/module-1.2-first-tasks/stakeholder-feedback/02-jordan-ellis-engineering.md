@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Jordan Ellis, Engineering Lead
 
 Supportive of the goal, worried about the scope.

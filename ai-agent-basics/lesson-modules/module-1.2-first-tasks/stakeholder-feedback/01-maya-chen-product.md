@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Maya Chen, Head of Product
 
 Overall I'm strongly in favor. Onboarding is the single biggest lever we have

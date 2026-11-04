@@ -31,10 +31,15 @@ Your manager is Maya Chen, Head of Product.
 | Ben Carter    | Support Lead                 |
 
 ## This quarter's focus (Q3)
-**Fix onboarding.** Sign-ups are growing fast, but too many new teams never get set up.
+**Fix customer onboarding.** Lots of new customer teams are signing up for Relay, but too
+many never finish setting up their workspace, so they never get value from the product
+and they cancel.
+
+> Note: at Relay, "onboarding" means **new customers getting set up in the product** —
+> not new employees joining the company.
 
 Company OKR for Q3:
-- **Objective:** New teams get to value in their first week.
+- **Objective:** New customer teams get value from Relay in their first week.
 - **KR1:** Raise onboarding completion from 65% to **80%**.
 - **KR2:** Stop the slide in Day-30 retention (currently 62%, down from 71% in January).
 - **KR3:** Cut setup-related support tickets by 30%.

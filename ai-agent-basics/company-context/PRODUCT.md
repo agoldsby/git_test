@@ -20,7 +20,7 @@ Relay keeps remote teams in sync. Work lives in **projects**, projects contain
 | Business   | $18 / user / month | Multi-team companies            |
 | Enterprise | Custom             | Large orgs needing SSO & audit  |
 
-## How a new team gets started today (the onboarding flow)
+## How a new customer team gets started today (the customer onboarding flow)
 1. Sign up with email.
 2. Create a workspace.
 3. Create a first project (blank — no templates yet).

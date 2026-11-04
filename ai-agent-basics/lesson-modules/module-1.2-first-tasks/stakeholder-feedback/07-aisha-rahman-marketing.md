@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Aisha Rahman, Marketing Lead
 
 Fully supportive — our acquisition is working, activation isn't. We're

@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Priya Shah, Design Lead
 
 Love it. This is the most important design work we'll do this year.

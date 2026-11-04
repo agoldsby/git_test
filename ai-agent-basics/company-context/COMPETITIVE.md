@@ -14,6 +14,6 @@
 - Workload View is a favorite in sales demos.
 
 ## Where Relay loses
-- **Onboarding:** Competitors (especially Monday.com and Asana) get new teams to a
+- **Customer onboarding:** Competitors (especially Monday.com and Asana) get new teams to a
   "useful first project" in minutes using templates. Relay starts with a blank page.
 - **Enterprise readiness:** No SSO yet — we lose larger deals to Asana and Jira.

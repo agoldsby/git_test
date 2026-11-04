@@ -1,4 +1,4 @@
-FEEDBACK REQUEST: "Guided Setup" onboarding redesign proposal
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
 From: Tom Becker, VP of Sales
 
 I'm not against Guided Setup, but I want to be honest: it doesn't help my
