@@ -25,31 +25,33 @@ with Tom and Marcus, Q3 planning).** A strong action-item list catches roughly t
 **Scenario 1 practice — product-sync-notes.txt.** Key items: Priya to ping Aisha for step
 copy (today); you to update the timeline with M vs. L options (Wed, high); Lena to share the
 full retention analysis (Fri); you to get the top 20 setup questions from Ben; Maya's final
-call moved to Thu; Jordan needs design final by Aug 15. Big insight: teams that invite
+call moved to Thu; Jordan needs design final by Jul 31. Big insight: teams that invite
 someone in the first 3 days retain 2x. Open question: should "team type" be skippable?
 
 **Scenario 2 — stakeholder-feedback (8 files).** Strong synthesis includes:
-- *Themes (with how many raised them):* onboarding is the top priority (all 8); the blank
+- *Themes (with how many raised them):* onboarding is a real problem (all 8; 7 strongly back Guided Setup, while Tom in Sales
+  isn't against it but says it doesn't help close deals); the blank
   project is the main drop-off point (Maya, Priya, Marcus, Lena); inviting teammates is
   critical (Maya, Priya, Lena, Ben, plus Aisha's caution); templates / starter projects
-  matter (Priya, Marcus, Ben, Jordan's "templates-lite"); engineering capacity and scope
+  matter (Priya, Marcus, Ben, Aisha, Jordan's "templates-lite"); engineering capacity and scope
   (Jordan, Maya, Priya); SSO / enterprise needs (Tom, Ben, Jordan, Maya).
-- *Agreement:* everyone supports Guided Setup; replace the blank start; put invites
+- *Agreement:* 7 of 8 strongly support Guided Setup (Sales is neutral); replace the blank start; put invites
   front and center.
 - *Key tensions:* (1) **SSO vs. onboarding** in Q3 — Tom wants both; Jordan says not possible
   (SSO is 6–8 weeks plus security review); Maya leaning onboarding first. (2) **Scope vs.
   quality** — Maya wants a simple v1; Priya worries a cut-down version feels half-finished.
   (3) **Forced invites** — Priya says the invite step must not be skippable; Aisha worries
-  solo users will bounce. (4) **Removing the blank project** — Priya wants it gone; Ben warns
-  power users will be annoyed. (5) **What Guided Setup can fix** — Lena cautions that part of
+  solo users will bounce. (4) **The blank project** — Priya wants it gone for new users; Ben warns existing
+  power users still need it, so the change must not take it away from them. (5) **What Guided Setup can fix** — Lena cautions that part of
   the retention drop is free-plan mix, not just onboarding.
 - *Recommended next steps:* decide Guided Setup + templates-lite (~7 weeks) for Q3; give
   Sales a committed, properly scoped SSO date; agree one definition of "activated"; run
-  user interviews before finalizing design (design final by mid-August); support FAQ two
+  user interviews before finalizing design (design final by July 31); support FAQ two
   weeks before launch; a CS view of stuck accounts.
 
 **Reference synthesis** (use only if the learner resumes at Scenario 3 in a new chat):
-> All 8 stakeholders support the Guided Setup redesign. Everyone agrees the blank project
+> Seven of the 8 stakeholders strongly support the Guided Setup redesign; Sales isn't
+> against it but wants SSO prioritized. Everyone agrees the blank project
 > is where new teams drop off and that inviting teammates must be front and center (teams
 > that invite someone in 3 days retain 2x). Key tensions: Sales wants SSO in Q3, but
 > Engineering says Guided Setup + templates-lite (~7 weeks) is the most Q3 can hold;
@@ -58,18 +60,23 @@ someone in the first 3 days retain 2x. Open question: should "team type" be skip
 > need a blank project. Data cautions that part of the retention drop (71% → 62%) comes from
 > free-plan sign-ups. Recommendation: ship Guided Setup with templates-lite in Q3, commit to
 > a scoped SSO date for Sales, agree on one "activated" definition, and run user interviews
-> before design is final in mid-August.
+> before design is final on July 31. Suggested owners: Maya decides Q3 scope this week;
+> Jordan scopes SSO and sets a date for Sales; Lena and Aisha agree the "activated"
+> definition; you and Priya run interviews; Priya finalizes design by July 31; Ben gets a
+> support FAQ two weeks before launch.
 
 **Scenario 3 — communication-styles (3 guides).** Check that each output follows its guide:
 Slack update (~120 words max, emoji + bold headline, 3–5 bullets, ends with an @-tagged
 ask); executive email (headline-style subject with the recommendation, bottom line in the
-first paragraph, Why + Risks bullets with numbers, a clear ask with a date, under 200
+first paragraph, Why bullets with numbers, Risks bullets, a clear ask with a date, under 200
 words); full project doc (the 7 headings in order, ending with an Action | Owner | Due
 table). All three should tell the same story from the synthesis.
 
 **Scenario 4 — dashboard-example.png.** Strong analysis includes:
+0. **Note:** this is the onboarding funnel dashboard Lena was asked to build in the
+   Scenario 1 meeting notes.
 1. **OKR gap:** onboarding completion is 65% against an 80% target, flat for 3 quarters.
-2. **Retention decline:** Day-30 retention fell every month, 71% (Jan) → 62% (Jun), −9 pts.
+2. **Retention decline:** Day-30 retention fell every month, 71% (Jan) → 62% (Jun), −9 pts since January.
 3. **Growth vs. activation tension:** sign-ups up 40% (7,480 in Q2) while completion stays
    flat — more people are coming in, and more of them are failing to get set up.
 4. **Where the funnel breaks:** created first project (88%) → added 5+ tasks (69%), a 19-point

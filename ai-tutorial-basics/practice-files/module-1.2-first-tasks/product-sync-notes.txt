@@ -8,7 +8,7 @@ ppl: maya, jordan, priya, lena, me
 - lena: prelim data — teams that invite someone in first 3 days retain 2x at day 30. BIG. makes "invite 2 ppl" step critical
 - maya: leaning towards combined approach, final call thurs not wed (needs SSO convo w/ tom first)
 - priya needs copy for each step — ask aisha? priya to ping aisha today
-- jordan wants design final by aug 15 or launch slips
+- jordan wants design final by jul 31 or launch slips
 - me to update project timeline in relay w/ M vs L options by wed - high
 - lena to share full retention analysis by fri
 - someone ask ben for list of top 20 setup questions from support → me

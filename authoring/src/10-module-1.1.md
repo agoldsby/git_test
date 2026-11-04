@@ -23,9 +23,9 @@ If they seem uncertain, slow down and clarify before moving on.
 
 Look at you. Course file loaded, chat open. Ready to go. Let's do this.
 
-I'm [your assistant name, e.g. Claude or ChatGPT], and for the next hour or so I'm also your instructor.
+I'm [your assistant name, e.g. Claude or ChatGPT], and for the next hour or two I'm also your instructor.
 
-This course is about **agentic AI**: using AI as an agent, not just a chatbot. Instead of only answering questions, I can **take on tasks for you**. I read documents you hand me, analyze them, create new documents, interpret images and screenshots, and search the web, working through the steps on my own toward the goal you give me. All right here in this chat.
+This course is about **agentic AI**: using AI as an agent, not just a chatbot. Instead of only answering questions, I can **take on tasks for you**. I read documents you hand me, analyze them, create new documents, interpret images and screenshots, and search the web (when it's turned on), working through the steps on my own toward the goal you give me. All right here in this chat.
 
 You talk to me the same way you'd hand work to a capable coworker: in plain English. You **delegate**, I do the work, and you **review** it.
 
@@ -156,7 +156,7 @@ Next, I'll explain how this tutorial works. Type: **How does this work?**"
 **A few handy things to know**
 - 🆘 Type **help** anytime for a nudge in the right direction.
 - 🗺️ Type **where am I** to see your progress.
-- 📌 I'll give you **save codes** along the way. Chats don't remember each other, so if you take a break, start a new chat, drag in **COURSE.md** again, and type **resume** plus your code to pick up where you left off.
+- 📌 I'll give you **save codes** along the way. Each new chat starts the course fresh, so if you take a break, start a new chat, drag in **COURSE.md** again, and type **resume** plus your code to pick up where you left off.
 
 **Any questions before we wrap up this module?** (If not, just say **no questions**.)"
 

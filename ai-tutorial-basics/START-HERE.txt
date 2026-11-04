@@ -27,7 +27,9 @@ questions, and checks your progress.
 2. USE A COMPUTER, not a phone. You'll be dragging files into the chat.
 
 3. HAVE AN ACCOUNT for Claude (claude.ai) or ChatGPT (chatgpt.com).
-   Free accounts work. Paid accounts allow longer chats.
+   Free accounts work. Free plans limit how many files you can upload
+   per day (the course uses about 15 uploads), so if you hit a limit,
+   save your code and continue tomorrow, or use a paid account.
 
 
 ---------------------------------------------------------------------

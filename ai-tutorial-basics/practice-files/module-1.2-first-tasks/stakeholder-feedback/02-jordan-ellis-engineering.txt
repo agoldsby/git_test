@@ -15,5 +15,6 @@ roughly 3 engineers for new work.
 
 Please don't promise Sales an SSO date until we've scoped it properly.
 
-I'd also like design to be final by mid-August. Every week design slips,
+I'd also like design to be final by July 31 so we can launch before the
+end of Q3. Every week design slips,
 launch slips.

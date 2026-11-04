@@ -63,9 +63,9 @@ Keep the exact phrase you want the learner to type in **bold** (for example **Te
 
 ### The dashboard image
 
-`practice-files/module-1.2-first-tasks/dashboard-example.png` was rendered from an HTML
-mock-up. Its numbers have to match `COMPANY.txt`, `05-lena-ortiz-data.txt`, and the Scenario 4
-answer key: completion 65% vs. an 80% target; Day-30 retention 71% → 62%; sign-ups +40%
+`practice-files/module-1.2-first-tasks/dashboard-example.png` was rendered from
+`authoring/dashboard-source.html` (a screenshot of that page, e.g. with a browser or Playwright). Its numbers have to match `COMPANY.txt`, `05-lena-ortiz-data.txt`, and the Scenario 4
+answer key: completion 65% vs. an 80% target; Day-30 retention 71% (January) → 62%; sign-ups +40%
 (7,480 in Q2); funnel 100/95/88/69/65; setup tickets 38%.
 
 ## Testing checklist

@@ -9,7 +9,7 @@ Rules:
 - Casual, friendly tone. No corporate jargon.
 
 Example:
-📊 *Onboarding numbers are in*
+📊 **Onboarding numbers are in**
 • Completion is flat at 65% (goal: 80%)
 • Biggest drop-off: blank project → first tasks
 • Teams that invite someone early retain 2x better

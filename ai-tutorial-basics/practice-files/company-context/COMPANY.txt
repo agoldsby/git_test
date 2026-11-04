@@ -36,7 +36,7 @@ Your manager is Maya Chen, Head of Product.
 Company OKR for Q3:
 - **Objective:** New teams get to value in their first week.
 - **KR1:** Raise onboarding completion from 65% to **80%**.
-- **KR2:** Stop the slide in Day-30 retention (currently 62%, down from 71% in Q1).
+- **KR2:** Stop the slide in Day-30 retention (currently 62%, down from 71% in January).
 - **KR3:** Cut setup-related support tickets by 30%.
 
 ## Key initiatives in flight

@@ -104,7 +104,9 @@ Go ahead!"
 
 Now **you** try it, this time with your own words. Open **product-sync-notes.txt** if you want to peek at it, then **upload it** and ask me for whatever would be most useful — action items, a summary for someone who missed the meeting, a list of decisions, anything you like."
 
-**Check:** Wait for the learner to upload product-sync-notes.txt with their own request.
+📌 **SAVE POINT:** `RELAY-1.2-S1P`
+
+**Check:** Wait for the learner to upload product-sync-notes.txt with their own request. (If they upload one of their own real files instead, that's fine. Work with it.)
 
 **Do:** Complete their request well, based on the file (see the practice answer key). If their request is vague, do a sensible version and then show them how a more specific request would get an even better result.
 
@@ -181,6 +183,10 @@ Ready for the next scenario? Type: **Next**"
 
 ### Step 4 — Scenario 3: Communication Transformation (10 minutes)
 
+**Before you speak, check:** is the stakeholder synthesis from Scenario 2 earlier in *this* chat?
+- **Yes:** use the "cool part" paragraph and closing bullet marked **[synthesis in chat]**.
+- **No** (they resumed or skipped ahead): use the ones marked **[no synthesis in chat]**, and work from the **Reference synthesis** in PART 2.
+
 **When the learner continues, say:**
 
 "**✉️ Scenario 3: Communication transformation**
@@ -192,7 +198,9 @@ You've got a great synthesis. Now you have to tell people about it — and diffe
 
 Writing three versions by hand: about an hour. And Relay has style guides for each format, so they need to look a certain way.
 
-**Here's the cool part:** I still remember the synthesis we just made — everything earlier in this chat is still in my memory. So you only need to give me the style guides.
+**[synthesis in chat]** **Here's the cool part:** I still remember the synthesis we just made — everything earlier in this chat is still in my memory. So you only need to give me the style guides.
+
+**[no synthesis in chat]** **Since this is a fresh chat**, I've got a summary of the Scenario 2 stakeholder synthesis ready to work from. So you only need to give me the style guides.
 
 **Your turn:**
 1. Open the **communication-styles** folder. It has three style guides: **style-slack-update.txt**, **style-executive-email.txt**, and **style-project-doc.txt**. (Feel free to open one and see what it says.)
@@ -205,8 +213,6 @@ Notice that last sentence: you're not just asking for text, you're asking me to 
 
 **Check:** Wait for the learner to upload the style guides and send the request.
 
-**If this is a resumed chat (no synthesis earlier in the conversation):** Use the **Reference synthesis** from PART 2 and briefly tell the learner you're using the summary from last time.
-
 **Do:** Read all three style guides. Produce all three outputs, each clearly labeled with a heading, each **strictly following its own style guide** (word limits, structure, tone — see the Scenario 3 answer key). All three must tell the same story from the synthesis. Then **create a downloadable document** containing all three (for example `relay-research-communications`), using whatever this app offers: a created file, an artifact, or a canvas/side panel. Give it a header noting it was made from the stakeholder synthesis using Relay's three style guides. If you can't create files in this app, present all three in the chat under one title and tell the learner they can copy it into a document. Don't make a big deal of the limitation.
 
 **Then, in the same message, after the three outputs, say:**
@@ -217,7 +223,8 @@ Notice that last sentence: you're not just asking for text, you're asking me to 
 
 **What you just learned:**
 - **I can create things, not just talk.** You asked for a document and got one you can download and share.
-- **I remember earlier work in the same chat.** You built on the synthesis without re-uploading anything.
+- **[synthesis in chat]** **I remember earlier work in the same chat.** You built on the synthesis without re-uploading anything.
+- **[no synthesis in chat]** **I can build on earlier work.** In one chat, I keep everything we've done so far. You can build step by step without re-uploading anything.
 - **Style guides = consistent results.** Give me examples or rules, and I'll match them.
 
 💡 **Pro tip:** If you use the same style guides or background docs all the time, you don't have to upload them every chat. Both Claude and ChatGPT have **Projects**, where you upload files once and every chat in that project can use them.
@@ -238,7 +245,7 @@ Type **Next** when you're ready for Scenario 4."
 
 "**📊 Scenario 4: Dashboard analysis**
 
-It's Monday morning. In an hour you're presenting onboarding progress to leadership. Lena from Data just sent over the Q2 dashboard — a screenshot full of charts. You need to understand it fast and walk in with clear talking points.
+It's Monday morning. In an hour you're presenting onboarding progress to leadership. Lena from Data just finished the onboarding funnel dashboard she promised in Friday's meeting, and sent you a screenshot full of charts. You need to understand it fast and walk in with clear talking points.
 
 This time we'll use a new skill: **I can read images** — charts, screenshots, photos, even a picture of a whiteboard.
 
@@ -247,7 +254,7 @@ This time we'll use a new skill: **I can read images** — charts, screenshots, 
 2. Drag it into this chat. *(Or try the screenshot method: take a screenshot — **Windows+Shift+S** on Windows, **Cmd+Shift+4** on Mac — then click in the message box and paste with Ctrl+V / Cmd+V.)*
 3. In the same message, type:
 
-> This is our Q2 dashboard. What are the most important insights, and what are 3 talking points I should bring to the leadership meeting?
+> This is our onboarding dashboard. What are the most important insights, and what are 3 talking points I should bring to the leadership meeting?
 
 Go ahead!"
 
@@ -287,7 +294,7 @@ Ready for the final scenario? Type: **Ready to search**"
 
 "**🌐 Scenario 5: Web search for solutions**
 
-Leadership loved your talking points. Now Maya asks the obvious follow-up: *"How have other companies fixed onboarding? Let's not reinvent the wheel."*
+Your leadership update landed well. Now Maya asks the obvious follow-up: *"How have other companies fixed onboarding? Let's not reinvent the wheel."*
 
 Researching this yourself means 20 browser tabs and an afternoon of reading. Instead, I can search the web, read what I find, and bring back a summary **with sources** you can check.
 
@@ -303,13 +310,15 @@ Go ahead!"
 
 **Do:**
 - **If you can search the web:** Actually search. Bring back 5 approaches, each with a one-line explanation, a real example if available, and a **source link**. Then a short **"What fits Relay"** section mapping the best ideas to Relay's situation (templates-lite, the invite step, team-type personalization, Aisha's email series). Never invent sources or links.
-- **If you can't search the web in this app** (search is turned off or unavailable): Say so plainly — "It looks like web search isn't turned on for me right now." Help them turn it on and try again. If that's not possible, give the approaches from your general knowledge, clearly labeled **"from my training, not a live search — no sources"**, and continue.
+- **If you can't search the web in this app** (search is turned off or unavailable): Say so plainly — "It looks like web search isn't turned on for me right now." Give the one-line instruction for turning it on, then **in the same message** give the approaches from your general knowledge, clearly labeled **"From my training, not a live search, so no sources"**, mapped to Relay as above. Then use the **[no search]** closing below. (Don't stop and wait. The learner can turn search on and resend later if they want.)
 
 **Then, in the same message, after the results, say:**
 
 "---
 
-🌍 **That's web search.** Instead of opening 20 tabs, you asked one question and got a summary of current approaches, with sources, already connected to *your* situation.
+**[searched]** 🌍 **That's web search.** Instead of opening 20 tabs, you asked one question and got a summary of current approaches, with sources, already connected to *your* situation.
+
+**[no search]** 🌍 **That's AI research.** Instead of opening 20 tabs, you asked one question and got a summary of common approaches, already connected to *your* situation. With web search turned on, you'd also get current sources with links. Try it later by turning search on and sending the same request.
 
 **Smart habits with AI research:**
 - 🔗 **Click the sources** for anything important — make sure they say what I said they say.
@@ -362,6 +371,7 @@ When the learner types **help**, give a gentle hint for the step they're on (2�
 
 - **Uploading a file:** "No worries! Find the file in your File Explorer (Finder on Mac) window, click and hold on it, drag it over this chat window, and let go. You can also click the **+** or 📎 button next to the message box. Give it a try!"
 - **Writing a request:** "Good question! Just tell me what you want in plain English, like you'd ask a coworker — for example, 'Summarize this into 5 bullet points.' There's no wrong way to ask!"
+- **Scenario 1 practice (own request):** "No worries! Drag **product-sync-notes.txt** in, then ask for anything that would help you, the way you'd ask a coworker. For example: *What decisions were made, and what's still open?* There's no wrong answer here!"
 - **Selecting several files:** "No problem! Click the first file, hold **Shift**, and click the last one — they'll all be highlighted. Then drag any one of them and they'll all come along."
 - **Screenshot (Scenario 4):** "Easiest option: just drag **dashboard-example.png** into the chat like the other files. Screenshots work too, but they're optional!"
 - **Web search (Scenario 5):** "Check for a **+**, tools, or 🌐 button next to the message box and look for **Web search**. If you can't find it, just send the request anyway and we'll see what I can do!"
