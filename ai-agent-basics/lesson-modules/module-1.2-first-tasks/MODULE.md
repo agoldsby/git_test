@@ -14,7 +14,9 @@ the web. In every scenario the learner **delegates** a task by typing a request,
 created on disk. Printing a result into the chat is not enough. After each Action:
 1. name the file you changed or created, and where it is
 2. show the new content (or a preview if it's long)
-3. give the learner a download of the file (see `AGENTS.md`, section 2)
+3. help them see the file for themselves: 📂 **[see the file]** (see `AGENTS.md`, section 2).
+   In folder mode, send them to their File Explorer (Finder on Mac). In zip mode, give a
+   download.
 
 **Teaching style:** friendly and encouraging; patient (assume the learner is new to this).
 After each task, name the skill they just used and the time it saved. Keep Relay feeling
@@ -65,11 +67,27 @@ Your team needs action items before the weekend, but processing all these notes 
 
 With an agent? About 2 minutes.
 
-First, take a look at the mess. Type: **Show me the messy notes**"
+**[folder]** First, take a look at the mess yourself. In your File Explorer (Finder on Mac) window, open **lesson-modules → module-1.2-first-tasks** and double-click **meeting-notes-raw.md**. It opens in Notepad (TextEdit on Mac). Take a look, then come back and type: **I see the messy notes**
 
-**Check:** Wait for the learner to ask.
+**[zip]** First, take a look at the mess. Type: **Show me the messy notes**"
 
-**When the learner asks:**
+**Check:** Wait for the learner to respond.
+
+**[folder] When the learner confirms, say:**
+
+"Pretty messy, right? Let's clean that up.
+
+Here's the most important idea in this whole course: **point me at the file, tell me what you want, and tell me where to put the result.** A chatbot would just reply in the chat. An agent goes and updates the file.
+
+**One quick heads-up:** this is the first time I'll change a file on your computer, so your app may pause and ask your permission first. That's a built-in safety feature: nothing changes without your say-so. When you see it, click **Allow** (or **Approve**).
+
+**Your turn.** Copy this request (or type it in your own words) and send it:
+
+> Pull out every action item from meeting-notes-raw.md. Group them by owner, and format each one as: Task (Priority) – due Date. Flag anything that's missing an owner or a date. Append this to the bottom of the meeting-notes-raw.md file.
+
+Go ahead!"
+
+**[zip] When the learner asks:**
 
 **Action:** Read `meeting-notes-raw.md` and show its contents exactly as written, inside a
 code block so the mess stays visible. Don't clean anything up yet.
@@ -96,7 +114,7 @@ Go ahead!"
 1. Read `meeting-notes-raw.md`.
 2. **If the file already ends with an "Action Item Summary" section**, don't add a second
    one. Say: "Looks like we already did this one! The action item summary is already at the
-   bottom of meeting-notes-raw.md." Show it and give the download, then continue with the
+   bottom of meeting-notes-raw.md." Show it and help them see the file (📂), then continue with the
    wrap-up text below.
 3. Otherwise, write the action items. Group them by owner (bold owner names), and format
    each item as **Task (Priority) – due Date**. Infer priority from the notes: items marked
@@ -121,7 +139,7 @@ Here's what I added:
 
 [the appended section]
 
-📥 [download link or file card for the updated meeting-notes-raw.md]
+📂 **[see the file]** **[folder]** Go look! Close meeting-notes-raw.md in Notepad (TextEdit on Mac) and open it again. You'll see the new section at the bottom of *your* file. **[zip]** [download link or file card for the updated meeting-notes-raw.md]
 
 **Here's what just happened:**
 - I **opened** the file myself. You didn't paste anything.
@@ -142,7 +160,7 @@ it where they said. **If they didn't say where to save it**, give the answer in 
 then say: "Notice I only answered in the chat this time, because you didn't tell me where
 to put it. That's what a chatbot does. Tell me where to save it, for example: *'add that
 to the bottom of the file.'*" Then stop and wait. When they answer, save it, confirm the
-file changed (✅ + the new section + 📥 download), and continue with the text below.
+file changed (✅ + the new section + 📂 see the file), and continue with the text below.
 
 **Then say:**
 
@@ -189,7 +207,7 @@ Go ahead!"
 **Action:**
 1. **If `stakeholder-feedback/feedback-synthesis.md` already exists**, don't overwrite it.
    Say: "Looks like we already did this one! The synthesis is already in the
-   stakeholder-feedback folder." Show a preview and give the download, then continue with
+   stakeholder-feedback folder." Show a preview and help them see the file (📂), then continue with
    the wrap-up text below.
 2. Otherwise, read **every** file in `stakeholder-feedback/`.
 3. Write `stakeholder-feedback/feedback-synthesis.md` with these sections: a title, a
@@ -206,7 +224,7 @@ Here's a preview:
 
 [the top themes, and the key tensions in short form]
 
-📥 [download link or file card for feedback-synthesis.md]
+📂 **[see the file]** feedback-synthesis.md
 
 💪 **Powerful, right?** I read 8 stakeholder responses, compared them against each other, and wrote up where people agree, where they conflict, and what needs to be resolved. The whole thing is saved as a document you can share.
 
@@ -249,7 +267,7 @@ Go ahead!"
 **Action:**
 1. **If `communication-styles/research-communications.md` already exists**, don't
    overwrite it. Say: "Looks like we already did this one! research-communications.md is
-   already in the communication-styles folder." Show a preview and give the download, then
+   already in the communication-styles folder." Show a preview and help them see the file (📂), then
    continue with the wrap-up text below.
 2. Read all three files in `communication-styles/`.
 3. Check that `stakeholder-feedback/feedback-synthesis.md` exists. **If it doesn't** (the
@@ -275,7 +293,7 @@ Here's a preview of each:
 - **Executive email:** [the subject line and the bottom-line sentence]
 - **Project document:** [the section headings]
 
-📥 [download link or file card for research-communications.md]
+📂 **[see the file]** research-communications.md
 
 🎯 **Three messages, three audiences, one source of truth.** Each one follows its own style guide: the Slack update is short and casual, the email leads with the bottom line, and the doc has the full structure with an owner table.
 
@@ -312,7 +330,7 @@ Go ahead!"
 
 **Action:**
 1. **If `dashboard-talking-points.md` already exists**, don't overwrite it. Say so, show a
-   preview, and give the download, then continue with the wrap-up text below.
+   preview, and help them see the file (📂), then continue with the wrap-up text below.
 2. Open and examine `dashboard-example.png`.
 3. Write `dashboard-talking-points.md` with: **Key insights** (the OKR gap, the retention
    decline, the growth vs. setup tension, where the funnel breaks, and support load; see
@@ -321,8 +339,10 @@ Go ahead!"
 4. Save it to disk and confirm it exists.
 
 **If you can't read the image in this environment:** say so plainly, and ask the learner
-to help: give them a download link for `dashboard-example.png`, and ask them to download it
-and drag it back into the chat (that sends it to you as an image you can see). Then continue from step 3.
+to help. **[folder]** Ask them to drag `dashboard-example.png` from their File Explorer
+(Finder) window into the chat. **[zip]** Give them a download link for
+`dashboard-example.png`, and ask them to download it and drag it back into the chat. Either
+way, that sends it to you as an image you can see. Then continue from step 3.
 
 **Present it like this:**
 
@@ -332,7 +352,7 @@ Here are your 3 talking points:
 
 [the 3 talking points]
 
-📥 [download link or file card for dashboard-talking-points.md]
+📂 **[see the file]** dashboard-talking-points.md
 
 🔍 **That's image analysis.** I read the charts, pulled out the numbers, spotted the patterns, and turned them into talking points you can take into the meeting, saved and ready to go.
 
@@ -392,7 +412,7 @@ Here's the short version:
 
 [the 5 approaches in one line each, then the top 1–2 that fit Relay]
 
-📥 [download link or file card for onboarding-research.md]
+📂 **[see the file]** onboarding-research.md
 
 **[searched]** 🌍 **That's web research by an agent.** Instead of opening 20 tabs, you asked one question. I searched, read, compared, and wrote it up with sources, already connected to *your* situation.
 
@@ -411,7 +431,7 @@ Type **Wrap it up** to finish the course."
 
 ## Step 7 — Wrap-Up & What's Next (3 minutes)
 
-**Action:** Package the learner's work into one download. Create `my-relay-work.zip`
+**Action (zip mode only):** Package the learner's work into one download. Create `my-relay-work.zip`
 **at the top of the course folder** (not inside `module-1.2-first-tasks`), containing only
 the files the learner made or changed that exist: the updated `meeting-notes-raw.md` and
 `product-sync-notes.md`, `feedback-synthesis.md`, `research-communications.md`,
@@ -422,11 +442,13 @@ any other instruction files.
 
 "🏆 **Congratulations! You've completed AI Agent Basics!**
 
-As a send-off, I packaged everything you made today into one download:
+**[folder]** Take a look in your **module-1.2-first-tasks** folder. Everything you made today is right there on your computer: [list the files that actually exist, e.g. the updated meeting notes, **feedback-synthesis.md**, **research-communications.md**, **dashboard-talking-points.md**, and **onboarding-research.md**].
 
-📥 [download link or file card for my-relay-work.zip]
+**[zip]** As a send-off, I packaged everything you made today into one download:
 
-Inside you'll find [list the files actually in the zip, e.g. the updated meeting notes, **feedback-synthesis.md**, **research-communications.md**, **dashboard-talking-points.md**, and **onboarding-research.md**].
+[download link or file card for my-relay-work.zip]
+
+Inside you'll find [list the files actually in the zip].
 
 **Here's everything you can now do:**
 1. ✅ **Process messy notes** and save the action items right into the document
@@ -462,13 +484,13 @@ sentences, warm, ending with encouragement). Don't reveal the answer or skip ahe
 - **Sending a request:** "No worries! Just copy the request I gave you (the quoted request in my last message), paste it into the message box, and press Enter. Or type it in your own words. That works too!"
 - **Scenario 1 practice (own request):** "No problem! Try something like: *Write a short summary of product-sync-notes.md for someone who missed the meeting, and add it to the bottom of the file.* Any request works, as long as you tell me which file and where to put the result."
 - **Folder vs. file:** "You can name a whole folder (like *stakeholder-feedback*) and I'll read everything inside, or name one file (like *feedback-synthesis.md*). Give it a try!"
-- **Where did the file go?** "I saved it in the course folder. Look for the download link or file card in my last message to grab your own copy."
+- **Where did the file go?** **[folder]** "It's in your ai-agent-basics folder, under lesson-modules → module-1.2-first-tasks. If the file was already open, close it and open it again to see the changes." **[zip]** "I saved it in the course folder. Look for the download link or file card in my last message to grab your own copy."
 - **Web search:** "Check for a **+**, tools, or 🌐 button next to the message box and look for **Web search**. If you can't find it, just send the request anyway and I'll do what I can!"
 
 ## Common learner questions
 
 **"Where are the files you're changing? Did my zip change?"**
-"I'm working on my own copy of the course folder. The zip on your computer stays exactly as it was. Whenever I change or create a file, I give you a download so you have the new version."
+**[folder]** "I'm working on the folder you unzipped, right on your computer, so the changes you see in File Explorer are real. The zip you downloaded stays untouched, so you can always unzip a fresh copy." **[zip]** "I'm working on my own copy of the course folder. The zip on your computer stays exactly as it was. Whenever I change or create a file, I give you a download so you have the new version."
 
 **"Can I use my own files instead?"**
 "Absolutely. That's the whole point! Drag any file into the chat and tell me what to do with it and where to save the result. For this course, let's stick with the Relay files so the examples line up."
@@ -480,7 +502,7 @@ sentences, warm, ending with encouragement). Don't reveal the answer or skip ahe
 "Mostly, but always review it, especially numbers, names, dates, and anything you'll send to other people. Think of me as a fast, capable first draft, with you as the final editor."
 
 **"Can I edit the result?"**
-"Absolutely. Tell me what to change (*'make the Slack update shorter,' 'add a risks section'*) and I'll update the file. Or download it and edit it yourself."
+"Absolutely. Tell me what to change (*'make the Slack update shorter,' 'add a risks section'*) and I'll update the file. Or open it and edit it yourself."
 
 ---
 

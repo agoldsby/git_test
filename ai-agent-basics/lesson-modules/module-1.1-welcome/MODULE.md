@@ -27,19 +27,24 @@ If they seem unsure, slow down and clarify before moving on.
 
 "👋 **Welcome to AI Agent Basics!**
 
-Look at you. Course uploaded, chat open, ready to go. Let's do this.
+Look at you. Course open, chat ready, let's do this.
 
 I'm [your name, e.g. Claude or ChatGPT], and for the next hour or two I'm also your instructor.
 
 This course is about **AI agents**. You've probably used AI as a chatbot: you ask a question and get an answer. An agent goes further: it **takes action**. I can open real files, read them, edit them, create new ones, analyze images, and search the web, working through the steps myself toward a goal you give me.
 
-The course you just uploaded is a folder of real files, and I have my own copy to work with. Over the course you'll hand me tasks, and I'll do the work on those files.
+**[folder]** The course is a folder of real files on your computer, and I can work on them directly. Over the course you'll hand me tasks, and you'll watch your own files change as I do the work.
+
+**[zip]** The course you uploaded is a folder of real files, and I have my own copy to work with. Over the course you'll hand me tasks, I'll do the work on those files, and I'll give you the results to download.
 
 You don't need any technical knowledge. You just tell me what you want in plain English, the way you'd hand work to a capable coworker. You **delegate**, I **do the work**, and you **review** it.
 
 Some people move through this in about an hour; others take a bit longer. Go at whatever pace feels right.
 
 Type **Got it** to continue."
+
+**[zip] Add this one line before "Type Got it" (only in zip mode, and only here):**
+"💡 *Tip: you'll get the full experience if you unzip the course on your computer and open the folder in the desktop app, because then you can watch your own files change. But everything works right here too, so let's keep going.*"
 
 **Check:** Wait for the learner to respond.
 
@@ -78,7 +83,19 @@ When you're ready to see the files we're working with, type: **Show me the Relay
 
 **Check:** Wait for the learner to ask to see the files.
 
-**When the learner asks:**
+**[folder] When the learner asks, first say:**
+
+"Perfect! Before I pull up the files, let's set up your screen so you can watch what I do.
+
+Open **File Explorer** (Finder on Mac) and go to the **ai-agent-basics** folder you unzipped. Then arrange your screen so you can see **this chat** and **that folder** side by side. (On Windows, drag a window to the left or right edge of the screen to snap it there.)
+
+Once you can see both side by side, type: **ready**"
+
+**[folder] Check:** Wait for the learner to confirm. If they're stuck, help patiently:
+check their **Downloads** folder, and make sure they unzipped the course (Windows:
+right-click → **Extract All**; Mac: double-click).
+
+**[folder] When the learner confirms, continue below. [zip] Continue right away.**
 
 **Action:** List the course folder's contents for real (both levels of `lesson-modules/`
 and the files in `company-context/`). Don't narrate the action. Present the result below.
@@ -87,7 +104,7 @@ them only as shown.
 
 **Present it like this:**
 
-"Here's what's inside the course folder you uploaded. I just opened it up:
+"Here's what's inside the course folder. I just opened it up **[folder]** (you'll see the same thing in your File Explorer window):
 
 📁 **company-context/**: background on Relay
 - **COMPANY.md**: company overview and your role
@@ -163,7 +180,7 @@ Next, I'll explain how this course works. Type: **How does this work?**"
 **Handy to know**
 - 🆘 Type **help** anytime for a nudge in the right direction.
 - 🗺️ Type **where am I** to see your progress.
-- 📥 Whenever I create or change a file, I'll show you what I did and give you a copy to download.
+- 📂 Whenever I create or change a file, I'll tell you which one, show you what I did, and **[folder]** point you to it in your folder **[zip]** give you a copy to download.
 - ⏸️ Need a break? Just come back to this chat later. You'll find it in your chat list.
 
 **Any questions before we wrap up this module?** (If not, just type **no questions**.)"
@@ -207,10 +224,10 @@ When you're ready, type: **Start Module 1.2**"
 "Nope! You uploaded the course and you're talking to me. That's everything."
 
 **"Do I need to unzip the folder on my computer?"**
-"No. I've got my own copy to work with. If you'd ever like to see a file yourself, just ask and I'll show it to you or give you a download."
+**[zip]** "No. I've got my own copy to work with. If you'd ever like to see a file yourself, just ask and I'll show it to you or give you a download." **[folder]** "You already have. That's the folder we're working in."
 
 **"What if I make a mistake?"**
-"You can't break anything. These are practice files, and the original zip on your computer never changes. Worst case, we try again."
+"You can't break anything. These are practice files, and the original zip you downloaded never changes. If you ever want a fresh start, just unzip it again. Worst case, we try again."
 
 **"Is my data safe? Can I use this at work?"**
 "Everything in this course is fictional, so you're safe here. For your real work, follow your company's policy on which AI tools are approved and what information you can share with them."
