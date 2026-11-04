@@ -1,0 +1,20 @@
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
+From: Jordan Ellis, Engineering Lead
+
+Supportive of the goal, worried about the scope.
+
+Capacity reality check: I have 6 engineers for Q3. Slack v2 is 80% done and
+I don't want to pause it — that would waste work already done. That leaves
+roughly 3 engineers for new work.
+
+- Guided Setup alone: ~5 weeks with 2 engineers. Doable.
+- Guided Setup + Smart Templates: ~7 weeks. Tight but possible if we keep
+  templates simple ("templates-lite").
+- Guided Setup + Templates + SSO: not happening this quarter. SSO alone is
+  6-8 weeks and needs security review.
+
+Please don't promise Sales an SSO date until we've scoped it properly.
+
+I'd also like design to be final by July 31 so we can launch before the
+end of Q3. Every week design slips,
+launch slips.

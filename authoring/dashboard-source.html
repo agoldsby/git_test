@@ -1,0 +1,54 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0;font-family:Segoe UI,Helvetica,Arial,sans-serif;background:#f4f5f7;color:#1f2430}
+.wrap{width:1200px;padding:28px}
+h1{font-size:24px;margin:0}.sub{color:#667;font-size:14px;margin:4px 0 20px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:16px}
+.t{background:#fff;border-radius:10px;padding:16px 18px;box-shadow:0 1px 2px #0001}
+.t .l{font-size:13px;color:#667}.t .v{font-size:32px;font-weight:700;margin:6px 0 2px}
+.up{color:#1a7f37}.down{color:#c62828}.warn{color:#b26a00}.small{font-size:12px;color:#667}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.c{background:#fff;border-radius:10px;padding:16px 18px;box-shadow:0 1px 2px #0001}
+.c h2{font-size:15px;margin:0 0 8px}
+svg text{font-size:12px;fill:#556}
+</style></head><body><div class="wrap">
+<h1>Relay — Growth &amp; Onboarding Dashboard</h1>
+<div class="sub">Onboarding funnel dashboard · Jan–Jun · Source: product analytics (Lena Ortiz)</div>
+<div class="tiles">
+<div class="t"><div class="l">New sign-ups (Q2)</div><div class="v">7,480</div><div class="up">▲ 40% vs Q1</div></div>
+<div class="t"><div class="l">Onboarding completion</div><div class="v warn">65%</div><div class="small">OKR target: <b>80%</b> · flat all year</div></div>
+<div class="t"><div class="l">Day-30 retention</div><div class="v down">62%</div><div class="down">▼ 9 pts since January (71%)</div></div>
+<div class="t"><div class="l">Setup-related tickets</div><div class="v down">38%</div><div class="small">of all support tickets (June)</div></div>
+</div>
+<div class="grid">
+<div class="c"><h2>Sign-ups vs. Onboarding completion</h2>
+<svg width="540" height="240" viewBox="0 0 540 240">
+<line x1="40" y1="200" x2="520" y2="200" stroke="#ccd"/>
+<g id="bars"></g>
+</svg></div>
+<div class="c"><h2>Day-30 retention by signup month</h2>
+<svg width="540" height="240" id="ret"></svg></div>
+<div class="c" style="grid-column:span 2"><h2>Onboarding funnel — June sign-ups (% of teams)</h2>
+<svg width="1130" height="200" id="fun"></svg></div>
+</div></div>
+<script>
+const m=["Jan","Feb","Mar","Apr","May","Jun"];
+const su=[1680,1760,1900,2380,2490,2610], oc=[66,65,65,64,65,65];
+let g='';
+m.forEach((x,i)=>{const X=60+i*78,h=su[i]/2800*170;g+=`<rect x="${X}" y="${200-h}" width="40" height="${h}" fill="#9db7e8"/><text x="${X+6}" y="216">${x}</text><text x="${X}" y="${195-h}">${su[i]}</text>`});
+const oy=v=>200-(v-40)/50*170;
+g+=`<line x1="40" x2="520" y1="${oy(80)}" y2="${oy(80)}" stroke="#1a7f37" stroke-dasharray="6 4"/><rect x="440" y="${oy(80)-22}" width="76" height="16" fill="#fff"/><text x="444" y="${oy(80)-10}" style="fill:#1a7f37;font-weight:600">Target 80%</text>`;
+g+=`<polyline fill="none" stroke="#b26a00" stroke-width="3" points="${oc.map((v,i)=>`${80+i*78},${oy(v)}`).join(' ')}"/>`;
+oc.forEach((v,i)=>g+=`<circle cx="${80+i*78}" cy="${oy(v)}" r="4" fill="#b26a00"/><text x="${70+i*78}" y="${oy(v)-8}" style="fill:#b26a00">${v}%</text>`);
+g+=`<rect x="44" y="6" width="12" height="12" fill="#9db7e8"/><text x="60" y="16">Sign-ups</text><rect x="130" y="10" width="14" height="3" fill="#b26a00"/><text x="150" y="16">Onboarding completion</text>`;
+document.getElementById('bars').innerHTML=g;
+const r=[71,70,68,66,64,62];let s='<line x1="40" y1="200" x2="520" y2="200" stroke="#ccd"/>';
+const ry=v=>200-(v-50)/30*170;
+[55,60,65,70,75].forEach(v=>s+=`<line x1="40" x2="520" y1="${ry(v)}" y2="${ry(v)}" stroke="#eef"/><text x="10" y="${ry(v)+4}">${v}%</text>`);
+s+=`<polyline fill="none" stroke="#c62828" stroke-width="3" points="${r.map((v,i)=>`${70+i*85},${ry(v)}`).join(' ')}"/>`;
+r.forEach((v,i)=>s+=`<circle cx="${70+i*85}" cy="${ry(v)}" r="4" fill="#c62828"/><text x="${60+i*85}" y="${ry(v)-10}">${v}%</text><text x="${58+i*85}" y="218">${m[i]}</text>`);
+document.getElementById('ret').innerHTML=s;
+const f=[["Signed up",100],["Created workspace",95],["Created first project",88],["Added 5+ tasks",69],["Invited a teammate → onboarded",65]];
+let h='';f.forEach((x,i)=>{const w=x[1]/100*700;h+=`<text x="0" y="${28+i*36}">${x[0]}</text><rect x="240" y="${14+i*36}" width="${w}" height="22" fill="${i==3?'#e8a0a0':'#9db7e8'}"/><text x="${248+w}" y="${30+i*36}">${x[1]}%</text>`});
+h+=`<text x="1000" y="138" style="fill:#c62828;font-weight:700">−19 pts</text><text x="1000" y="154" style="fill:#c62828">biggest drop</text>`;
+document.getElementById('fun').innerHTML=h;
+</script></body></html>

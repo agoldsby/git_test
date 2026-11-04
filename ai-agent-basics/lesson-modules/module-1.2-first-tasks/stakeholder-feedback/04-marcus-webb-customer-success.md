@@ -1,0 +1,21 @@
+FEEDBACK REQUEST: "Guided Setup" proposal — redesigning how new customers get set up in Relay
+From: Marcus Webb, Customer Success
+
+Yes, please, and fast.
+
+What I'm hearing on calls:
+- 3 churn calls this week alone. All three said some version of "we never
+  really got the team set up."
+- New customers open Relay, see an empty project, and don't know what to do
+  next. Several told me they "poked around and gave up."
+- Customers don't understand what a "project" vs a "task" is on day one.
+- The ones who stick around almost always had a "champion" who set up a real
+  project and dragged their team in.
+
+Requests:
+- Templates matter more than people think. Customers keep asking us
+  "what should my board look like?" A starter project answers that question.
+- Please give CS a way to see which new accounts are stuck so we can reach
+  out early.
+
+I'm happy to share churn call recordings with Product and Design.

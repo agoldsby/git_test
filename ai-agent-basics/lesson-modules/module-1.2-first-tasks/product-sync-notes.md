@@ -1,0 +1,15 @@
+product sync — tues (quick one, 20 min)
+
+ppl: maya, jordan, priya, lena, me
+
+- priya walked thru guided setup wireframes v1. 4 steps: name workspace → pick team type → starter project → invite 2 ppl
+- jordan: step 3 "starter project" basically IS smart templates lite?? could combine the 2 initiatives. maya liked this a lot
+- jordan t-shirt size for guided setup = M (approx 5 wks w/ 2 engs). w/ templates-lite folded in = L (7 wks)
+- lena: prelim data — teams that invite someone in first 3 days retain 2x at day 30. BIG. makes "invite 2 ppl" step critical
+- maya: leaning towards combined approach, final call thurs not wed (needs SSO convo w/ tom first)
+- priya needs copy for each step — ask aisha? priya to ping aisha today
+- jordan wants design final by jul 31 or launch slips
+- me to update project timeline in relay w/ M vs L options by wed - high
+- lena to share full retention analysis by fri
+- someone ask ben for list of top 20 setup questions from support → me
+- parking lot: should step 2 "team type" be skippable? priya says no, jordan says yes. revisit after interviews
